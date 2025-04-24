@@ -1,0 +1,118 @@
+#wrapper_GM {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: auto;
+  position: relative;
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: bold;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+#LapTop_Gaming {
+  width: 1100px;
+  /* height: 750px; */
+  background-color: #fff;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 40px 50px 0px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.SP_GM {
+  width: 220px;
+  /* height: 419px; */
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: none;
+  margin-bottom: 40px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.SP_GM:hover .ab {
+  display: block;
+  z-index: 10;
+}
+
+#wrapper_GM .Manufacturer {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  top: 10px;
+}
+#wrapper_GM .Manufacturer-list {
+  display: flex;
+}
+
+#wrapper_GM .Manufacturer-All {
+  display: grid;
+  margin-left: 20px;
+  align-items: center;
+}
+
+@media (max-width: 1150px) {
+  #LapTop_Gaming {
+    width: 100%;
+    padding: 40px 20px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .SP_GM {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #wrapper_GM {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #LapTop_Gaming {
+    padding: 20px 10px 0px;
+    box-shadow: none;
+    border-top: 1px solid rgba(188, 188, 188, 0.145);
+    border-left: 1px solid rgba(188, 188, 188, 0.145);
+    margin-top: 20px !important;
+    border-radius: 0px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .SP_GM {
+    width: 100%;
+    border-right: 1px solid rgba(188, 188, 188, 0.145);
+    border-bottom: 1px solid rgba(188, 188, 188, 0.145);
+    margin-bottom: 0px;
+  }
+
+  #wrapper_GM .Manufacturer {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 375px) {
+  .SP_GM {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,62 @@
+#content {
+  width: 1200px;
+  min-height: 400px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+#slideshow {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#slideshow #show {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+#slideshow .btn {
+  font-size: 50px;
+  color: #999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+#slideshow .btn:hover {
+  color: white;
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  right: 0;
+}
+
+#ads {
+  width: 1200px;
+  height: 156px;
+  margin: 0px auto;
+}
+
+#ads img {
+  width: 280px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a1 {
+  padding-right: 22.2px;
+}
+
+.a2 {
+  padding-right: 22.2px;
+}
+
+.a3 {
+  padding-right: 22.2px;
+}

@@ -1,0 +1,122 @@
+#wraper-video {
+  width: 1200px;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.video-sp {
+  width: 1100px;
+  /* height: 750px; */
+  background-color: #fff;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 40px 50px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  display: flex;
+}
+
+.vd1 {
+  margin-right: 50px;
+}
+
+#footer {
+  width: 100vw;
+  height: 400px;
+  background-color: aqua;
+}
+
+#footer-containner {
+  max-width: 1205px;
+  height: 380px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 250px 270px 270px 410px);
+}
+
+#footer-containner h3 {
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+}
+
+#footer-containner ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer-containner li:hover a {
+  color: white;
+}
+
+#footer-containner li {
+  list-style: none;
+}
+
+#footer-containner li a {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  padding: 10px 0px;
+}
+
+/* for mobile */
+@media screen and (max-width: 768px) {
+  #footer {
+    width: 100vw;
+  }
+  #footer-containner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hotro {
+    display: none;
+  }
+  .lienHe {
+    display: none;
+  }
+  .chinhsach {
+    display: none;
+  }
+  .btn-link {
+    width: 35px;
+    height: 35px;
+  }
+  .btn-link a {
+    font-size: 20px;
+  }
+  #backtop {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* for talet */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .sodo {
+    display: none;
+  }
+  #footer {
+    width: 100vw;
+  }
+  #footer-containner {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
+  }
+  .Hotro {
+    margin-left: 30px;
+  }
+
+  .btn-link {
+    width: 40px;
+    height: 40px;
+  }
+  .btn-link a {
+    font-size: 25px;
+  }
+  #backtop {
+    width: 45px;
+    height: 45px;
+  }
+}

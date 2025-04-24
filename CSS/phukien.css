@@ -1,0 +1,162 @@
+#wrapper_PK {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-family: bold;
+  font-size: 36px;
+  line-height: 43px;
+}
+#Phukien {
+  width: 1100px;
+  /* height: 750px; */
+  background-color: #fff;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 40px 50px 0px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.SP_PK {
+  width: 220px;
+  /* height: 419px; */
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: none;
+  margin-bottom: 40px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.SP_PK:hover .ab {
+  display: block;
+  z-index: 10px;
+}
+
+@media (max-width: 1150px) {
+  #Phukien {
+    width: 100%;
+    padding: 40px 20px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .SP_PK {
+    width: 200px;
+  }
+
+  .bg_sp .img-baosp img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  #wrapper_PK {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .row::before,
+  .row::after {
+    display: none;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #Phukien {
+    padding: 20px 10px 0px;
+    box-shadow: none;
+    border-top: 1px solid rgba(188, 188, 188, 0.145);
+    border-left: 1px solid rgba(188, 188, 188, 0.145);
+    margin-top: 20px !important;
+    border-radius: 0px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .SP_PK {
+    width: 100%;
+    border-right: 1px solid rgba(188, 188, 188, 0.145);
+    border-bottom: 1px solid rgba(188, 188, 188, 0.145);
+    margin-bottom: 0px;
+  }
+
+  .bg_sp {
+    padding: 10px;
+  }
+
+  .bg_sp .img-baosp {
+    height: 100px;
+  }
+
+  .bg_sp .img-baosp img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .bg_sp:hover {
+    position: relative;
+    box-shadow: none;
+  }
+
+  .text-sp {
+    font-size: 14px;
+    height: 54px;
+  }
+
+  .bg_sp .price {
+    font-size: 16px;
+  }
+
+  #wrapper_PK .Manufacturer {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .text-sp {
+    font-size: 12px;
+    height: 48px;
+    -webkit-line-clamp: 2;
+  }
+
+  .bg_sp .price {
+    font-size: 14px;
+  }
+
+  .bg_sp .price .price-old {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .SP_PK {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .bg_sp .img-baosp {
+    height: 120px;
+  }
+}
